@@ -1,0 +1,70 @@
+
+.bgPrimary{
+    background-color: #F31213;
+}
+
+.bgSecondary{
+    background-color: #E46B6A;
+}
+
+.bgAccent{
+    background-color: #E6E5E5;
+}
+
+.btmHoriBorRad-15{
+    border-radius: 0 0 20px 20px;
+}
+
+.bgBanner{
+    background-image: linear-gradient(to right, #F31213, #E56968);
+}
+
+.jumbotron .banner-text{
+    text-align: center;
+}
+.jumbotron .text-banner{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .jumbotron .quote{
+    position: absolute;
+    left: 50%;
+  /* top: 50%; 
+    transform: translateX(-50%);
+} */
+
+.tentang-kami .angkatan{
+    display: inline-block;
+    width: 91px;
+    height: 91px;
+}
+
+.tentang-kami .angkatan h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  /* top: 50%; */
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (min-width: 995px) {
+    
+    .jumbotron .banner-text{
+        text-align: left;
+    }
+    .jumbotron .text-banner{
+        display: block;
+    }
+
+    .jumbotron .bottom, .jumbotron .top{
+        position: static;
+    }
+    .jumbotron .quote{
+        position: static;
+        left: 0%;
+      /* top: 50%; */
+        transform: translateX(0%);
+    }
+}
