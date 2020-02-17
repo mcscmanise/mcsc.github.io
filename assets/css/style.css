@@ -55,6 +55,10 @@
     transform: translate(-50%,-50%);
 }
 
+.list-materi{
+    width: 100%;
+}
+
 @media screen and (min-width: 995px) {
     
     .jumbotron .banner-text{
@@ -72,5 +76,9 @@
         left: 0%;
       /* top: 50%; */
         transform: translateX(0%);
+    }
+
+    .list-materi{
+        width: 50%;
     }
 }
