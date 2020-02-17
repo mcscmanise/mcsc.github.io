@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'pristina';
+    src: url('../font/PRISTINA.TTF');
+}
 
 .bgPrimary{
     background-color: #F31213;
@@ -21,11 +25,13 @@
 
 .jumbotron .banner-text{
     text-align: center;
+    font-family: 'pristina';
 }
 .jumbotron .text-banner{
     display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* .jumbotron .quote{

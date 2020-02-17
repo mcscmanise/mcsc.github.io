@@ -36,7 +36,7 @@ function bannerResponsive() {
     <h1 class="banner-text display-4 text-light">Maluku Computer Study Club</h1>
     <div class='text-banner'>
         <div class="quote bg-light d-inline-block p-1 px-2 rounded-pill">
-            <p class="m-0 text-center">Membangun Maluku dengan komputer</p>
+            <p class="m-0 text-center"><i>Membangun <b>Maluku</b> dengan <b>komputer</b></i></p>
         </div>  
     </div>`;
     let logo = `<div class='logo text-center'><img src="assets/img/MCSC.PNG" width="250" height="250" class="d-inline-block align-top" alt="">
